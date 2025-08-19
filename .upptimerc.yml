@@ -3,34 +3,40 @@ owner: pcichowski # Your GitHub organization or username, where this repository 
 repo: esovisco-service-status # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
+  - name: MTM - Production API
+    url: https://vpn.mtm-sa.com.pl:8443/api/v1
+  - name: MTM - Staging API
+    url: https://mtm-api-test-ea36e1a51b7e.herokuapp.com/api/v1/
+  - name: MTM Transport - API
     url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
-
+  - name: J2G - Dashboard
+    url: https://jam2gether.esovisco.com/
+  - name: J2G - Cloud API
+    url: https://jam2gether-api.cloud.esovisco.com:3456/
+  - name: Esovisco - Website
+    url: https://esovisco.com
+  - name: Esovisco - Grafana
+    url: https://grafana.cloud.esovisco.com:3456
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.esovisco.com
   # baseUrl: /your-repo-name
+  favicon: https://esovisco.com/assets/img/favicon.png
   logoUrl: https://esovisco.com/assets/img/favicon.png
-  name: Esovisco status server
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: Esovisco Status Server
+  introTitle: "Status usług **Esovisco**"
+  introMessage: ""
+  theme: night
   navbar:
-    - title: Status
+    - title: Status usług
       href: /
+    - title: Strona internetowa
+      href: https://esovisco.com
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/Esovisco
+i18n:
+  footer: "Esovisco sp. z o.o. • Masz problem z usługą? Napisz: status@esovisco.com"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
