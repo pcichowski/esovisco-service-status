@@ -58,7 +58,7 @@
     "url": "https://jam2gether.esovisco.com/",
     "icon": "https://icons.duckduckgo.com/ip3/jam2gether.esovisco.com.ico",
     "slug": "j2-g-dashboard",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -69,7 +69,9 @@
     "timeWeek": 330,
     "timeMonth": 330,
     "timeYear": 330,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-23": 0
+    }
   },
   {
     "name": "J2G - Cloud API",
