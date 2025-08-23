@@ -58,19 +58,19 @@
     "url": "https://jam2gether.esovisco.com/",
     "icon": "https://icons.duckduckgo.com/ip3/jam2gether.esovisco.com.ico",
     "slug": "j2-g-dashboard",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 330,
-    "timeDay": 202,
-    "timeWeek": 330,
-    "timeMonth": 330,
-    "timeYear": 330,
+    "status": "up",
+    "uptime": "99.56%",
+    "uptimeDay": "98.21%",
+    "uptimeWeek": "99.56%",
+    "uptimeMonth": "99.56%",
+    "uptimeYear": "99.56%",
+    "time": 316,
+    "timeDay": 219,
+    "timeWeek": 316,
+    "timeMonth": 316,
+    "timeYear": 316,
     "dailyMinutesDown": {
-      "2025-08-23": 0
+      "2025-08-23": 26
     }
   },
   {
